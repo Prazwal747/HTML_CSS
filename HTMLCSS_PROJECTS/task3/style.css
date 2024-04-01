@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.75) 50%, rgba(0, 0, 0, 0.75)),
+    url(images/pexels-pixabay-69825.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-family: sans-serif;
+}
+
+.navbar {
+  width: 95%;
+  /* border: 2px solid white; */
+  height: auto;
+  margin-left: 30px;
+  color: white;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 40px;
+  font-family: cursive;
+  float: left;
+  padding-top: 0.6%;
+  cursor: pointer;
+  /* border: 1px solid white; */
+}
+
+.menu {
+  width: 600px;
+  float: left;
+  height: 90px;
+  /* border: 2px dotted white; */
+  margin-left: 30px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 13px;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 60px;
+  font-size: 16px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+.search-box {
+  float: right;
+  width: 240px;
+  background: white;
+  height: 30px;
+  padding: 8px;
+  border-radius: 15px;
+  margin-top: 1%;
+  margin-right: 2%;
+}
+
+.search-box .search-txt {
+  width: 190px;
+  padding: 0 6px;
+}
+
+.search-btn {
+  text-decoration: none;
+  background: #fff;
+  color: black;
+  display: flex;
+  float: right;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+}
+
+.search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  /* float: left; */
+  color: black;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.6px;
+}
+
+.title {
+  width: 80%;
+  /* border: 1px dotted wheat; */
+  position: absolute;
+  top: 45%;
+  margin-left: 10%;
+  /* margin: auto; */
+  text-align: center;
+  transform: translateY(-45%);
+}
+
+.title h1 {
+  cursor: pointer;
+  font-family: cursive;
+  color: #fff;
+  font-size: 85px;
+}
+
+.button {
+  position: absolute;
+  top: 55%;
+  left: 40%;
+  margin: 10px;
+  transform: translateY(-45%);
+}
+
+.btn {
+  color: #fff;
+  padding: 5px 20px;
+  font-size: 18px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  transition: 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: black;
+}
